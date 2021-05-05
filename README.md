@@ -1,10 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to My Working Portfolio Github Page
 
-You can use the [editor on GitHub](https://github.com/migrodri1980/Working-portfolio-/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Currently in Development to showcase my skills as a Junior Developer 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+### Below will be a list a projects completed or currently be worked on. 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
