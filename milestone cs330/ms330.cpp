@@ -40,11 +40,11 @@ glm::vec3 lightColor(0.78f, 0.88f, 1.0f); //applied overcast sky like  201,226,2
 glm::vec3 secondLightColor(0.49f, 0.43f, 0.40f); //applied light brown to second color
 
 //Light position and scale
-glm::vec3 lightPosition(-1.0f, 0.0f, -3.0f);
-glm::vec3 lightScale(0.1f);
+glm::vec3 lightPosition(-1.0f, 1.0f, -1.0f); //moved light to upper right back area of scene. wanted shadows casted.
+glm::vec3 lightScale(0.2f); //increased light scale for more contrast of shadows in scene.
 
 
-glm::vec3 lightStrength(1.0f, 1.0f, 0.25f);//ambient   specular    highlight
+glm::vec3 lightStrength(1.0f, 2.0f, 0.25f);//ambient   specular    highlight
 
 //set scale by axis numbers
 GLfloat scale_by_y = 1.0f;
@@ -150,7 +150,7 @@ const GLchar * lightFragmentShaderSource = GLSL(330,
 	uniform vec3 lightPos;
 	uniform vec3 viewPosition;
     uniform vec3 lightStrength;
-	uniform sampler2D uTexture; //Useful when working with multiple textures
+	uniform sampler2D uTexture;
 
     void main(){
     	vec3 norm = normalize(Normal); //Normalize vectors to 1 unit
@@ -295,7 +295,7 @@ void URenderGraphics(void) {
 
 	glBindTexture(GL_TEXTURE_2D, texture);
 
-	glDrawElements(GL_TRIANGLES, 600, GL_UNSIGNED_INT, 0); //Draw triangles
+	glDrawElements(GL_TRIANGLES, 2000, GL_UNSIGNED_INT, 0); //Draw triangles
 
 	glBindVertexArray(0); // Deactivate vertex array object
 
@@ -388,10 +388,10 @@ void UCreateBuffers() {
 			-0.6f, 0.2f, -0.9f,   0.9f, 0.9f, 0.8f, 	0.0f, 0.0f,		//39
 
 			//chair base
-			 0.6f, 0.0f,  0.0f,   0.17f, 0.11f, 0.05f, 	0.0f, 0.0f,		//40
+			 0.6f, 0.0f,  0.0f,   0.17f, 0.11f, 0.05f, 	0.25f, 0.0f,	//40  //CLEANED UP TEXTURE TEARS ON CHAIR BASE.
 			-0.6f, 0.0f,  0.0f,   0.17f, 0.11f, 0.05f,	1.0f, 0.0f,		//41
 			 0.6f, 0.1f,  0.0f,   0.17f, 0.11f, 0.05f, 	0.25f, 0.0f,	//42
-			-0.6f, 0.1f,  0.0f,   0.17f, 0.11f, 0.05f,	1.0f, 0.25f,	//43
+			-0.6f, 0.1f,  0.0f,   0.17f, 0.11f, 0.05f,	1.0f, 0.0f,		//43
 
 			 0.6f, 0.0f, -1.0f,   0.17f, 0.11f, 0.05f,  0.0f, 0.25f,  	//44
 			 0.6f, 0.1f, -1.0f,   0.17f, 0.11f, 0.05f, 	0.0f, 0.25f,	//45
@@ -440,8 +440,8 @@ void UCreateBuffers() {
 			0.5f, 0.5f, -1.0f,  0.39f, 0.26f, 0.12f, 	0.0f, 0.5f,		//75
 
 			0.5f, 0.4f, -1.05f,  0.39f, 0.26f, 0.12f, 	0.0f, 0.0f,		//76
-		   -0.5f, 0.5f, -1.05f,  0.39f, 0.26f, 0.12f,	1.0f, 0.0f,		//77
-		   -0.5f, 0.4f, -1.05f,  0.39f, 0.26f, 0.12f,  	1.0f, 0.5f,		//78
+		   -0.5f, 0.5f, -1.05f,  0.39f, 0.26f, 0.12f,	1.0f, 0.5f,		//77
+		   -0.5f, 0.4f, -1.05f,  0.39f, 0.26f, 0.12f,  	1.0f, 0.0f,		//78
 		    0.5f, 0.5f, -1.05f,  0.39f, 0.26f, 0.12f, 	0.0f, 0.5f,		//79
 
 			//chair rung 1 front to back
@@ -495,7 +495,104 @@ void UCreateBuffers() {
 		   -0.5f, -0.4f, -0.88f,  0.39f, 0.26f, 0.12f,	1.0f, 0.5f,	//110
 			0.5f, -0.4f, -0.88f,  0.39f, 0.26f, 0.12f, 	0.0f, 0.5f,	//111
 
+
+			//DESK
+			 1.2f, 0.6f,  0.6f,   0.39f, 0.26f, 0.12f, 	0.0f, 0.0f,		//112
+			-1.2f, 0.6f,  0.6f,   0.39f, 0.26f, 0.12f,	0.0f, 0.0f,		//113
+			 1.2f, 0.8f,  0.6f,   0.39f, 0.26f, 0.12f, 	0.0f, 0.0f,		//114
+			-1.2f, 0.8f,  0.6f,   0.39f, 0.26f, 0.12f,	0.0f, 0.0f,		//115
+
+			 1.2f, 0.6f, -0.6f,   0.39f, 0.26f, 0.12f,  0.0f, 0.0f,		//116
+			 1.2f, 0.8f, -0.6f,   0.39f, 0.26f, 0.12f, 	0.0f, 0.0f,		//117
+
+			-1.2f, 0.6f, -0.6f,   0.39f, 0.26f, 0.12f, 	0.0f, 0.0f,		//118
+			-1.2f, 0.8f, -0.6f,   0.39f, 0.26f, 0.12f, 	0.0f, 0.0f,		//119
+
+			//DESK LEG ONE
+			 1.0f,  0.6f,  0.2f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//120
+			 0.9f,  0.6f,  0.2f,   0.39f, 0.26f, 0.12f,	0.0f, 0.0f,		//121
+			 1.0f, -0.9f,  0.2f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//122
+			 0.9f, -0.9f,  0.2f,   0.39f, 0.26f, 0.12f,	0.0f, 0.0f,		//123
+
+			 1.0f,  0.6f,  0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//124
+			 1.0f, -0.9f,  0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//125
+
+			 0.9f,  0.6f,  0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//126
+			 0.9f, -0.9f,  0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//127
+
+			 //DESK LEG TWO
+			 1.0f,  0.6f,  -0.2f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//128
+			 0.9f,  0.6f,  -0.2f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//129
+			 1.0f, -0.9f,  -0.2f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//130
+			 0.9f, -0.9f,  -0.2f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//131
+
+			 1.0f,  0.6f,  -0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//132
+			 1.0f, -0.9f,  -0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//133
+
+			 0.9f,  0.6f,  -0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//134
+			 0.9f, -0.9f,  -0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//135
+
+			//DESK LEG THREE
+			 -1.0f,  0.6f,  0.2f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//136
+			 -0.9f,  0.6f,  0.2f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//137
+			 -1.0f, -0.9f,  0.2f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//138
+			 -0.9f, -0.9f,  0.2f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//139
+
+			 -1.0f,  0.6f,  0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//140
+			 -1.0f, -0.9f,  0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//141
+
+			 -0.9f,  0.6f,  0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//142
+			 -0.9f, -0.9f,  0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//143
+
+			//DESK LEG FOUR
+			 -1.0f,  0.6f, -0.2f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//144
+			 -0.9f,  0.6f, -0.2f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//145
+			 -1.0f, -0.9f, -0.2f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//146
+			 -0.9f, -0.9f, -0.2f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//147
+
+			 -1.0f,  0.6f, -0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//148
+			 -1.0f, -0.9f, -0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//149
+
+			 -0.9f,  0.6f, -0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//150
+			 -0.9f, -0.9f, -0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//151
+
+			 //DESK FOOT 1
+
+			 -1.1f, -0.9f,  0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//152
+			 -0.8f, -0.9f,  0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//153
+			 -1.1f, -1.0f,  0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//154
+			 -0.8f, -1.0f,  0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//155
+
+			 -1.1f, -0.9f, -0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//156
+			 -1.1f, -1.0f, -0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//157
+
+			 -0.8f, -0.9f, -0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//158
+			 -0.8f, -1.0f, -0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//159
+
+			 //DESK FOOT 2
+
+			 1.1f, -0.9f,  0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//160
+			 0.8f, -0.9f,  0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//161
+			 1.1f, -1.0f,  0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//162
+			 0.8f, -1.0f,  0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//163
+
+			 1.1f, -0.9f, -0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//164
+			 1.1f, -1.0f, -0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//165
+
+			 0.8f, -0.9f, -0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//166
+			 0.8f, -1.0f, -0.3f,   0.39f, 0.26f, 0.12f, 0.0f, 0.0f,		//167
+
+
+
+
+
+
+
+
 	};
+
+
+
 
 	//Index data to share position data
 	GLuint indices[] = {
@@ -559,34 +656,34 @@ void UCreateBuffers() {
 			25,27,26,	//Triangle 48
 
 
-			//seat
-			32,33,34,	//Triangle 49
-			32,33,35,	//Triangle 50
-			32,34,36,	//Triangle 51
-			32,34,37,	//Triangle 52
-			33,35,38,	//Triangle 53
-			33,38,39,	//Triangle 54
-			36,37,38,	//Triangle 55
-			36,39,37,	//Triangle 56
-			32,33,37,	//Triangle 57
-			32,33,38,	//Triangle 58
-			34,35,39,	//Triangle 59
-			34,36,39,	//Triangle 60
+			//seat  (fixed missing polygons)
+			32,33,35,	//Triangle 49
+			32,34,35,	//Triangle 50
+			32,34,37,	//Triangle 51
+			32,36,37,	//Triangle 52
+			37,39,38,	//Triangle 53
+			37,36,38,	//Triangle 54
+			39,35,33,	//Triangle 55
+			39,38,33,	//Triangle 56
+			35,34,37,	//Triangle 57
+			35,39,37,	//Triangle 58
+			33,32,36,	//Triangle 59
+			33,38,36,	//Triangle 60
 
 
-			//BASE OF CHAIR
-			40,41,42, 	//Triangle 61
-			40,41,43,	//Triangle 62
-			40,42,44,	//Triangle 63
-			40,42,45,	//Triangle 64
-			41,43,46,	//Triangle 65
-			41,46,47,	//Triangle 66
-			44,45,46,	//Triangle 67
-			44,47,45,	//Triangle 68
-			40,41,45,	//Triangle 69
-			40,41,46,	//Triangle 70
-			42,43,47,	//Triangle 71
-			42,44,47,	//Triangle 72
+			//BASE OF CHAIR  (fixed missing polygons)
+			41,40,42,  //Triangle 61
+			41,43,42,	//Triangle 62
+			40,42,45,	//Triangle 63
+			40,44,45,	//Triangle 64
+			45,47,46,	//Triangle 65
+			45,44,46,	//Triangle 66
+			47,43,41,	//Triangle 67
+			47,46,41,	//Triangle 68
+			43,42,45,	//Triangle 69
+			43,47,45,	//Triangle 70
+			41,40,44,   //Triangle 71
+			41,46,44,	//added triangle as missing in seat base
 
 			//chair tower 1
 			48,49,53,	//Triangle 73
@@ -616,19 +713,19 @@ void UCreateBuffers() {
 			56,57,58,	//Triangle 95
 			57,59,58,	//Triangle 96
 
-			//chair horiz back
+			//chair horiz back    			//fixed
 			64,65,67,	//Triangle 97
-			64,65,66,	//Triangle 98
-			64,68,71,	//Triangle 99
-			64,67,71,	//Triangle 100
+			65,66,67,	//Triangle 98
+			64,67,71,	//Triangle 99
+			64,68,71,	//Triangle 100
 			68,69,70,	//Triangle 101
 			68,71,70,	//Triangle 102
-			65,69,64,	//Triangle 103
-			66,70,69,	//Triangle 104
+			65,69,70,	//Triangle 103
+			65,66,70,	//Triangle 104
 			66,70,67,	//Triangle 105
-			67,71,70,	//Triangle 106
-			65,64,68,	//Triangle 107
-			65,69,64,	//Triangle 108
+			66,67,71,	//Triangle 106
+			65,69,68,	//Triangle 107
+			65,64,68,	//Triangle 108
 
 			//chair horiz back lower
 			72,73,75,	//Triangle 109
@@ -699,6 +796,107 @@ void UCreateBuffers() {
 			106,107,111,	//Triangle 166
 			104,105,109,	//Triangle 167
 			104,108,109,	//Triangle 168
+
+			//desktop
+			112,113,115, 	//Triangle 169
+			115,114,112,	//Triangle 170
+			113,118,119,	//Triangle 171
+			113,115,119,	//Triangle 172
+			118,119,116,	//Triangle 173
+			116,119,117,	//Triangle 174
+			117,114,116,	//Triangle 175
+			116,112,114,	//Triangle 176
+			114,117,115,	//Triangle 177
+			115,119,117,	//Triangle 178
+			112,113,116,	//Triangle 179
+			116,113,118,	//Triangle 180
+
+			//desk leg 1
+			122,123,121,	//Triangle 181
+			122,120,121,	//Triangle 182
+			122,123,124,	//Triangle 183
+			124,120,122,	//Triangle 184
+			126,124,125,	//Triangle 185
+			125,127,126,	//Triangle 186
+			127,126,121,	//Triangle 187
+			123,127,121,	//Triangle 188
+			121,120,124,	//Triangle 189
+			121,126,124,	//Triangle 190
+			123,122,125,	//Triangle 191
+			123,127,125,	//Triangle 192
+
+			//desk leg 2
+			129,128,130,	//Triangle 193
+			131,129,128,	//Triangle 194
+			128,130,133,	//Triangle 195
+			133,132,128,	//Triangle 196
+			134,132,133,	//Triangle 197
+			133,135,134,	//Triangle 198
+			131,129,134,	//Triangle 199
+			131,135,134,	//Triangle 200
+			129,128,132,	//Triangle 201
+			129,134,132,	//Triangle 202
+			131,130,133,	//Triangle 203
+			131,135,133,	//Triangle 204
+
+			//desk leg 3
+			136,137,139,	//Triangle 205
+			136,138,139,	//Triangle 206
+			137,142,139,	//Triangle 207
+			139,143,142,	//Triangle 208
+			142,140,141,	//Triangle 209
+			140,141,143,	//Triangle 210
+			140,136,138,	//Triangle 211
+			140,141,138,	//Triangle 212
+			136,137,142,	//Triangle 213
+			136,140,142,	//Triangle 214
+			138,139,143,	//Triangle 215
+			138,141,143,	//Triangle 216
+
+			//desk leg 4
+			144,145,147,	//Triangle 217
+			144,146,147,	//Triangle 218
+			145,147,151,	//Triangle 219
+			145,150,151,	//Triangle 220
+			150,151,149,	//Triangle 221
+			150,148,149,	//Triangle 222
+			148,149,146,	//Triangle 223
+			148,144,146,	//Triangle 224
+			144,148,150,	//Triangle 225
+			144,145,150,	//Triangle 226
+			146,149,151,	//Triangle 227
+			146,147,151,	//Triangle 228
+
+			//desk foot 1
+			152,153,155,	//Triangle 229
+			152,154,155,	//Triangle 230
+			153,155,159,	//Triangle 231
+			153,158,159,	//Triangle 232
+			158,156,157,	//Triangle 233
+			158,159,157,	//Triangle 234
+			156,157,154,	//Triangle 235
+			156,152,154,	//Triangle 236
+			152,156,153,	//Triangle 237
+			153,158,156,	//Triangle 238
+			154,155,159,	//Triangle 239
+			154,157,155,	//Triangle 240
+
+			//desk foot 2
+			161,163,162,	//Triangle 241
+			161,160,162,	//Triangle 242
+			160,162,165,	//Triangle 243
+			160,164,165,	//Triangle 244
+			166,164,165,	//Triangle 245
+			166,167,165,	//Triangle 246
+			161,166,167,	//Triangle 247
+			161,163,167,	//Triangle 248
+			161,166,164,	//Triangle 249
+			161,160,164,	//Triangle 250
+			163,162,165,	//Triangle 251
+			163,167,162,	//Triangle 252
+
+
+
 
 
 
