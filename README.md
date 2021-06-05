@@ -12,7 +12,7 @@ Currently finalizing my Bachelors Degree in Computer Science with an emphasis on
 
 ```markdown
 
-Project: milestone cs330
+##Project: milestone cs330
 ------------------------
 Enhancement 1:
 --------------
