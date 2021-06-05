@@ -10,7 +10,7 @@ Currently finalizing my Bachelors Degree in Computer Science with an emphasis on
 
 ### Project: milestone cs330
 
-#### Enhancement 1:
+#### Enhancement 1:[Link](https://github.com/migrodri1980/Working-portfolio-/blob/main/milestone%20cs330/ms330.cpp)
 
 This project incorporates my working knowledge of OpenGL.
 Several key elements incoporated in this project are as follows:
@@ -28,7 +28,7 @@ Several key elements incoporated in this project are as follows:
 
 ### Project : Loginapplication.cpp
 
-#### Enhancement 2;
+#### Enhancement 2: [Link](https://github.com/migrodri1980/Working-portfolio-/blob/main/Loginapplication.cpp)
 ##### (Please note values of items as well as Admin password "5691" while running application)
 
 This project incorporates a working knowledge of algorithms, data structures, and security input checks
@@ -45,6 +45,10 @@ Several key elements incorporated in this project are as follows:
 allow for Adminstrator functionality within the program. 
 
 *The creation of input validations checks for cin inputs by user
+
+#### Enhancement 3:[Link](https://github.com/migrodri1980/Working-portfolio-/blob/main/LoginapplicationWSQL.cpp)
+
+
 
 [Link](https://youtu.be/L57Ke2MWIyc)
 
