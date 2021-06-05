@@ -1,4 +1,4 @@
-## Welcome to My Working Portfolio Github Page
+# Welcome to My Working Portfolio Github Page
 by Miguel CP Rodriguez IV 
 
 Course: CS 499- Computer Science Capstone  
@@ -6,11 +6,11 @@ Course: CS 499- Computer Science Capstone
 Currently finalizing my Bachelors Degree in Computer Science with an emphasis on Software Development 
 
 
-### Below is a list a projects completed or currently be worked on to help showcase my abilities.  
+## Below is a list a projects completed or currently be worked on to help showcase my abilities.  
 
-#### Project: milestone cs330
+### Project: milestone cs330
 
-##### Enhancement 1:
+#### Enhancement 1:
 
 This project incorporates my working knowledge of OpenGL.
 Several key elements incoporated in this project are as follows:
@@ -25,6 +25,20 @@ Several key elements incoporated in this project are as follows:
 *The utlization of different functions and calls such as (Redisplay/URenderGraphics/etc)
 
 *The manipulation and binding of VAO,VBO and EBO to produce 3d objects. 
+
+### Project : Loginapplication.cpp
+
+#### Enhancement 2;
+
+This project incorporates a working knowledge of algorithms, data structures, and security input checks
+
+Several key elements incorporated in this project are as follows: 
+
+*The creation the data structure Hash Table to facilitate user information and validation
+
+*Within the Hash Table for loops and pointers are utilized to creation HashTable functionality
+
+*
 
 
 
