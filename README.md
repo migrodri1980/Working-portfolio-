@@ -10,7 +10,7 @@ Currently finalizing my Bachelors Degree in Computer Science with an emphasis on
 
 ### Project: milestone cs330
 
-#### Enhancement 1:[Link](https://github.com/migrodri1980/Working-portfolio-/blob/main/milestone%20cs330/ms330.cpp)
+#### Enhancement 1:[Link](https://github.com/migrodri1980/Working-portfolio-/tree/main/milestone%20cs330)
 
 This project incorporates my working knowledge of OpenGL.
 Several key elements incoporated in this project are as follows:
