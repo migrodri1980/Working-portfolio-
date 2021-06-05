@@ -8,10 +8,6 @@ Currently finalizing my Bachelors Degree in Computer Science with an emphasis on
 
 ### Below is a list a projects completed or currently be worked on to help showcase my abilities.  
 
-
-
-```markdown
-
 ##Project: milestone cs330
 ------------------------
 Enhancement 1:
@@ -24,6 +20,12 @@ This project incorporates my working knowledge of OpenGL.
 *The a working knowledge of user functionality to navigate a scene
 *The utlization of different functions and calls such as (Redisplay/URenderGraphics/etc)
 *The manipulation and binding of VAO,VBO and EBO to produce 3d objects. 
+
+
+
+```markdown
+
+
 
 
 
