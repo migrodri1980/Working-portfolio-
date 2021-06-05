@@ -1,4 +1,4 @@
-# Welcome to My Working Portfolio Github Page
+# Working Portfolio Github Page
 by Miguel CP Rodriguez IV 
 
 Course: CS 499- Computer Science Capstone  
@@ -29,6 +29,7 @@ Several key elements incoporated in this project are as follows:
 ### Project : Loginapplication.cpp
 
 #### Enhancement 2;
+##### (Please note values of items as well as Admin password "5691" while running application)
 
 This project incorporates a working knowledge of algorithms, data structures, and security input checks
 
@@ -38,7 +39,12 @@ Several key elements incorporated in this project are as follows:
 
 *Within the Hash Table for loops and pointers are utilized to creation HashTable functionality
 
-*
+*Hash Table functions created (insert,remove item) and (search,print,check table). 
+
+*The program utlizes Hash Table functionality to not know check user creditionals but 
+allow for Adminstrator functionality within the program. 
+
+*The creation of input validations checks for cin inputs by user
 
 
 
