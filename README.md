@@ -46,6 +46,7 @@ allow for Adminstrator functionality within the program.
 
 *The creation of input validations checks for cin inputs by user
 
+[Link](https://youtu.be/L57Ke2MWIyc)
 
 
 
@@ -61,7 +62,7 @@ allow for Adminstrator functionality within the program.
 
 
 
-
+[Link](https://youtu.be/L57Ke2MWIyc)
 
 [Link](https://github.com/migrodri1980/Working-portfolio-.git) and ![Image](src)
 ```
