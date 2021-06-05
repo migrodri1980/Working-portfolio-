@@ -6,11 +6,15 @@ Course: CS 499- Computer Science Capstone
 Currently finalizing my Bachelors Degree in Computer Science with an emphasis on Software Development 
 
 
-## Below is a list a projects completed or currently be worked on to help showcase my abilities.  
+##Code Review: [Link](https://youtu.be/L57Ke2MWIyc)
+  
+This ia a code review for the following enhancments implemented below. 
+ 
+
 
 ### Project: milestone cs330
 
-#### Enhancement 1:[Link](https://github.com/migrodri1980/Working-portfolio-/tree/main/milestone%20cs330)
+#### Enhancement 1: [Link](https://github.com/migrodri1980/Working-portfolio-/tree/main/milestone%20cs330)
 
 This project incorporates my working knowledge of OpenGL.
 Several key elements incoporated in this project are as follows:
@@ -59,13 +63,11 @@ allow for Adminstrator functionality within the program.
 
 
 
-## My seccond Project is a C++ application that creates a login application and utilizes SQL functionality
 
 
 
 
 
-[Link](https://youtu.be/L57Ke2MWIyc)
 
 [Link](https://github.com/migrodri1980/Working-portfolio-.git) and ![Image](src)
 ```
