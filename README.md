@@ -1,4 +1,4 @@
-# Working Portfolio Github Page
+# Portfolio Github Page
 by Miguel CP Rodriguez IV 
 
 Course: CS 499- Computer Science Capstone  
@@ -6,7 +6,7 @@ Course: CS 499- Computer Science Capstone
 Currently finalizing my Bachelors Degree in Computer Science with an emphasis on Software Development 
 
 
-##Code Review: [Link](https://youtu.be/L57Ke2MWIyc)
+### Code Review for the follow projects below: [Link](https://youtu.be/L57Ke2MWIyc)
   
 This ia a code review for the following enhancments implemented below. 
  
