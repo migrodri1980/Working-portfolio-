@@ -17,6 +17,7 @@ This ia a code review for the following enhancments implemented below.
 #### Enhancement 1: [Link](https://github.com/migrodri1980/Working-portfolio-/tree/main/milestone%20cs330)
 
 This project incorporates my working knowledge of OpenGL.
+[Picture of project rendered](https://github.com/migrodri1980/Working-portfolio-/blob/main/Project%20Pictures/ms330%20pic.JPG)
 Several key elements incoporated in this project are as follows:
 
 
@@ -29,6 +30,7 @@ Several key elements incoporated in this project are as follows:
 *The utlization of different functions and calls such as (Redisplay/URenderGraphics/etc)
 
 *The manipulation and binding of VAO,VBO and EBO to produce 3d objects. 
+
 
 ### Project : Loginapplication.cpp
 
