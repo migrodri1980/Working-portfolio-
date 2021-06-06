@@ -6,7 +6,9 @@ Course: CS 499- Computer Science Capstone
 Currently finalizing my Bachelors Degree in Computer Science with an emphasis on Software Development 
 
 
-### Code Review for the follow projects below: [Link](https://youtu.be/L57Ke2MWIyc)
+### Code Review for the follow projects below: 
+
+[Code Review Link](https://youtu.be/L57Ke2MWIyc)
   
 This ia a code review for the following enhancments implemented below. 
  
@@ -20,7 +22,7 @@ This project incorporates my working knowledge of OpenGL.
 
 [Picture of project rendered](https://github.com/migrodri1980/Working-portfolio-/blob/main/Project%20Pictures/ms330%20pic.JPG)
 
-Several key elements incoporated in this project are as follows:
+Several key elements incorporated in this project are as follows:
 
 
 *The creation of an object by creating indivdiual points within xyz axis
