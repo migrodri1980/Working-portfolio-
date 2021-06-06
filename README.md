@@ -1,5 +1,5 @@
 # Portfolio Github Page
-by Miguel CP Rodriguez IV 
+### by Miguel CP Rodriguez IV 
 
 Course: CS 499- Computer Science Capstone  
 
@@ -54,7 +54,6 @@ allow for Adminstrator functionality within the program.
 
 
 
-[Link](https://youtu.be/L57Ke2MWIyc)
 
 
 
@@ -69,6 +68,7 @@ allow for Adminstrator functionality within the program.
 
 
 
-[Link](https://github.com/migrodri1980/Working-portfolio-.git) and ![Image](src)
+
+
 ```
 
