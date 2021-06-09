@@ -1,4 +1,4 @@
-# Portfolio Github Page
+# ePortfolio Github Page
 ### by Miguel CP Rodriguez IV 
 
 Course: CS 499- Computer Science Capstone  
