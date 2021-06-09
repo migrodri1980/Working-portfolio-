@@ -10,7 +10,7 @@ Currently finalizing my Bachelors Degree in Computer Science with an emphasis on
 
 [Code Review Link](https://youtu.be/L57Ke2MWIyc)
   
-This ia a code review for the following enhancments implemented below. 
+This ia a code review for the following enhancements implemented below. 
  
 
 
