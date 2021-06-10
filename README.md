@@ -43,7 +43,7 @@ Several key elements incorporated in this project are as follows:
 
 This project incorporates a working knowledge of algorithms, data structures, and security input checks
 
-Several key elements incorporated in this project are as follows: 
+Several Key elements are incorporated in this project as follows:
 
 *The creation the data structure Hash Table to facilitate user information and validation
 
@@ -56,7 +56,13 @@ allow for Adminstrator functionality within the program.
 
 *The creation of input validations checks for cin inputs by user
 
+### Project : LoginapplicationWSQL.cpp
+
 #### Enhancement 3:[Link](https://github.com/migrodri1980/Working-portfolio-/blob/main/LoginapplicationWSQL.cpp)
+
+This project incorporates a working knowledge of SQL databases and the commands to preform CRUD functions
+
+Several Key elements are incorporated in this project as follows:
 
 
 
