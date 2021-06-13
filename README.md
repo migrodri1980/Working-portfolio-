@@ -4,7 +4,6 @@
 Course: CS 499- Computer Science Capstone  
 
 ### Professional Self-Assessment:
-[Professional Self-Assesment Link]()
 
 &nbsp;&nbsp;&nbsp;&nbsp;During the completion of this coursework the development of the ePortfolio has  showcased several strengths as well as shaped some values toward a career in Computer Science. During initial development, the implementation of enhancement ideas and the progression toward the implementation of that ideas the value of communication becomes even more apparent in importance. During the development of my enhancement one regarding an additional texture implementation specifically I engaged developer and professional based communities such as Stack Overflow via posts for insight into implementation. This communication coupled with research utilizing community resources lead me to further understanding of many of the enhancements I was attempting to implement such as data structure and algorithms. During the initial discussion of enhancement two I had ideas toward implementing an array to hold user information and thus implement administrator functions. The research into hash tables allowed me to understand their efficiency regarding smaller data sets as well as their limitations in larger data sets. This need for research, communication and collaboration furthered into enhancement three titles LoginapplicationWSQL.cpp. Research into different database options as well as preforming test trials allowed me to understand the differences and focuses of different database applications. Upon communication and collaboration with a few previous teachers and professional friends I was able to make and educated decision regarding the use of SQLite within my application. Communication with stakeholders was apparent in my communication with the development community regarding ideas toward enhancement implementation during my initial portfolio submission. Collaboration in a team environment came in the form of brainstorming with the development community regarding solutions to the enhancements. Upon this collaboration I was able to make decisions toward as well as create data structures such as the Hash Table implemented in enhancement two to be utilized to perform the desired functionality. This collaboration and communication extended to enhancement three during the development of software engineering and databases in deciding how to implement the functionality within the application regarding customer information. Furthermore, the idea of security was present in input validation of the enhancements implemented in both enhancements two and three. In summary, communication is key to the ability to collaborate within a team environment and is value that has been strengthened during the development of this coursework.  
 
@@ -28,7 +27,7 @@ This ia a code review for the following enhancements implemented below.
 
 [Narrative for enhancement 1 link](https://github.com/migrodri1980/Working-portfolio-/blob/f1a1cee7802af6796befa6c1b48e2429b44ac736/Enhancement%201%20Narrative-%20Milestone%20cs330.pdf){:target="_blank"}
 
-#### Enhancement 1: [Link](https://github.com/migrodri1980/Working-portfolio-/tree/main/milestone%20cs330)
+#### [Enhancement 3:](https://github.com/migrodri1980/Working-portfolio-/tree/main/milestone%20cs330)
 
 This project incorporates my working knowledge of OpenGL.
 
@@ -74,7 +73,8 @@ allow for Adminstrator functionality within the program.
 
 [Narrative for enhancement 3 link](https://github.com/migrodri1980/Working-portfolio-/blob/f1a1cee7802af6796befa6c1b48e2429b44ac736/Enhancement%203%20Narrative-LoginapplicationWSQL.pdf){:target="_blank"}
 
-#### Enhancement 3:[Link](https://github.com/migrodri1980/Working-portfolio-/blob/main/LoginapplicationWSQL.cpp)
+#### [Enhancement 3:](https://github.com/migrodri1980/Working-portfolio-/blob/main/LoginapplicationWSQL.cpp)
+<a href="mss330.cpp">Download File</a>
 
 This project incorporates a working knowledge of SQL databases and the commands to preform CRUD functions
 
