@@ -26,7 +26,7 @@ This ia a code review for the following enhancements implemented below.
 
 ### Project: milestone cs330
 
-[Narrative for enhancement 1 link](https://github.com/migrodri1980/Working-portfolio-/blob/main/Enhancement%201%20Narrative-%20Milestone%20cs330.docx)
+[Narrative for enhancement 1 link](file:///C:/Users/Miguel/OneDrive/Enhancement%201%20Narrative-%20Milestone%20cs330.pdf)
 
 #### Enhancement 1: [Link](https://github.com/migrodri1980/Working-portfolio-/tree/main/milestone%20cs330)
 
