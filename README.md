@@ -52,7 +52,7 @@ Several key elements incorporated in this project are as follows:
 
 [Narrative for enhancement 2 link](https://github.com/migrodri1980/Working-portfolio-/blob/f1a1cee7802af6796befa6c1b48e2429b44ac736/Enhancement%202%20Narrative-%20Loginapplication%20cpp.pdf){:target="_blank"}
 
-#### Enhancement 2: [Link](https://github.com/migrodri1980/Working-portfolio-/blob/main/Loginapplication.cpp)
+#### [Enhancement 2:](https://github.com/migrodri1980/Working-portfolio-/blob/main/Loginapplication.cpp)
 ##### (Please note values of items as well as Admin password "5691" while running application)
 
 This project incorporates a working knowledge of algorithms, data structures, and security input checks
