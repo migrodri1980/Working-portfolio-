@@ -26,7 +26,7 @@ This ia a code review for the following enhancements implemented below.
 
 ### Project: milestone cs330
 
-[Narrative for enhancement 1 link](file:///C:/Users/Miguel/OneDrive/Enhancement%201%20Narrative-%20Milestone%20cs330.pdf)
+[Narrative for enhancement 1 link](https://github.com/migrodri1980/Working-portfolio-/blob/f1a1cee7802af6796befa6c1b48e2429b44ac736/Enhancement%201%20Narrative-%20Milestone%20cs330.pdf){:target="_blank"}
 
 #### Enhancement 1: [Link](https://github.com/migrodri1980/Working-portfolio-/tree/main/milestone%20cs330)
 
@@ -50,7 +50,7 @@ Several key elements incorporated in this project are as follows:
 
 ### Project : Loginapplication.cpp
 
-[Narrative for enhancement 2 link](https://github.com/migrodri1980/Working-portfolio-/blob/main/Enhancement%202%20Narrative-%20Loginapplication%20cpp.docx)
+[Narrative for enhancement 2 link](https://github.com/migrodri1980/Working-portfolio-/blob/f1a1cee7802af6796befa6c1b48e2429b44ac736/Enhancement%202%20Narrative-%20Loginapplication%20cpp.pdf){:target="_blank"}
 
 #### Enhancement 2: [Link](https://github.com/migrodri1980/Working-portfolio-/blob/main/Loginapplication.cpp)
 ##### (Please note values of items as well as Admin password "5691" while running application)
@@ -72,7 +72,7 @@ allow for Adminstrator functionality within the program.
 
 ### Project : LoginapplicationWSQL.cpp
 
-[Narrative for enhancement 3 link](https://github.com/migrodri1980/Working-portfolio-/blob/main/Enhancement%203%20Narrative-LoginapplicationWSQL.docx)
+[Narrative for enhancement 3 link](https://github.com/migrodri1980/Working-portfolio-/blob/f1a1cee7802af6796befa6c1b48e2429b44ac736/Enhancement%203%20Narrative-LoginapplicationWSQL.pdf){:target="_blank"}
 
 #### Enhancement 3:[Link](https://github.com/migrodri1980/Working-portfolio-/blob/main/LoginapplicationWSQL.cpp)
 
