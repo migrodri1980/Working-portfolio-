@@ -17,7 +17,7 @@ Course: CS 499- Computer Science Capstone
 
 ### Code Review for the following projects below: 
 
-[Code Review Link](https://youtu.be/L57Ke2MWIyc){:target="_blank"}
+[Code Review Link](https://www.youtube.com/watch?v=L57Ke2MWIyc){:target="_blank"}
   
 This ia a code review for the following enhancements implemented below. 
  
