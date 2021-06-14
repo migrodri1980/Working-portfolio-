@@ -26,6 +26,7 @@ This ia a code review for the following enhancements implemented below.
 ### Project: Milestone CS330
 
 #### [Enhancement for Category One Link](https://github.com/migrodri1980/Working-portfolio-/blob/main/milestone%20cs330/ms330.cpp){:target="_blank"}
+
 [Download Milestone CS332](https://raw.githubusercontent.com/migrodri1980/Working-portfolio-/main/milestone%20cs330/ms330.cpp){:target="_blank"}
 
 
@@ -52,6 +53,7 @@ Several key elements incorporated in this project are as follows:
 ### Project : Loginapplication.cpp
 
 #### [Enhancement for Category Two Link](https://github.com/migrodri1980/Working-portfolio-/blob/main/Loginapplication.cpp){:target="_blank"}
+
 [Download Loginapplication.cpp](https://raw.githubusercontent.com/migrodri1980/Working-portfolio-/main/Loginapplication.cpp){:target="_blank"]
 
 
@@ -75,6 +77,7 @@ allow for Adminstrator functionality within the program.
 ### Project : LoginapplicationWSQL.cpp
 
 #### [Enhancement for Category Three Link](https://github.com/migrodri1980/Working-portfolio-/blob/main/LoginapplicationWSQL.cpp){:target="_blank"}
+
 [Download LoginapplicationWSQL.cpp](https://raw.githubusercontent.com/migrodri1980/Working-portfolio-/main/LoginapplicationWSQL.cpp){:target="_blank"}
 
 
