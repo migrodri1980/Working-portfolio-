@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : Project.cpp
+// Name        : Loginapplication.cpp
 // Author      : miguel
 // Version     :
 // Copyright   : Your copyright notice
