@@ -23,11 +23,14 @@ This ia a code review for the following enhancements implemented below.
  
 
 
-### Project: milestone cs330
+### Project: Milestone CS330
 
 [Narrative for enhancement 1 link](https://github.com/migrodri1980/Working-portfolio-/blob/f1a1cee7802af6796befa6c1b48e2429b44ac736/Enhancement%201%20Narrative-%20Milestone%20cs330.pdf){:target="_blank"}
 
-#### [Enhancement for Category One Link](https://raw.githubusercontent.com/migrodri1980/Working-portfolio-/main/milestone%20cs330/ms330.cpp){:target="_blank"}
+#### [Enhancement for Category One Link](https://github.com/migrodri1980/Working-portfolio-/blob/main/milestone%20cs330/ms330.cpp){:target="_blank"}
+
+[Download Milestone CS332](https://raw.githubusercontent.com/migrodri1980/Working-portfolio-/main/milestone%20cs330/ms330.cpp){:target="_blank"}
+
 
 This project incorporates my working knowledge of OpenGL.
 
@@ -51,7 +54,11 @@ Several key elements incorporated in this project are as follows:
 
 [Narrative for enhancement 2 link](https://github.com/migrodri1980/Working-portfolio-/blob/f1a1cee7802af6796befa6c1b48e2429b44ac736/Enhancement%202%20Narrative-%20Loginapplication%20cpp.pdf){:target="_blank"}
 
-#### [Enhancement for Category Two Link](https://raw.githubusercontent.com/migrodri1980/Working-portfolio-/f1a1cee7802af6796befa6c1b48e2429b44ac736/Loginapplication.cpp)
+#### [Enhancement for Category Two Link](https://github.com/migrodri1980/Working-portfolio-/blob/main/Loginapplication.cpp)
+
+[Download Loginapplication.cpp](https://raw.githubusercontent.com/migrodri1980/Working-portfolio-/main/Loginapplication.cpp){:target="_blank"}
+
+
 ##### (Please note values of items as well as Admin password "5691" while running application)
 
 This project incorporates a working knowledge of algorithms, data structures, and security input checks
@@ -73,8 +80,9 @@ allow for Adminstrator functionality within the program.
 
 [Narrative for enhancement 3 link](https://github.com/migrodri1980/Working-portfolio-/blob/f1a1cee7802af6796befa6c1b48e2429b44ac736/Enhancement%203%20Narrative-LoginapplicationWSQL.pdf){:target="_blank"}
 
-#### [Enhancement for Category Three Link](https://github.com/migrodri1980/Working-portfolio-/blob/c17ce5d8afd32abcd0664ca349883cd56d15c653/LoginapplicationWSQL.cpp)
-<a href="https://raw.githubusercontent.com/migrodri1980/Working-portfolio-/f1a1cee7802af6796befa6c1b48e2429b44ac736/LoginapplicationWSQL.cpp">{:target="_blank"}Download File</a>
+#### [Enhancement for Category Three Link](https://github.com/migrodri1980/Working-portfolio-/blob/main/LoginapplicationWSQL.cpp){:target="_blank"}
+
+[Download LoginapplicationWSQL.cpp](https://raw.githubusercontent.com/migrodri1980/Working-portfolio-/main/LoginapplicationWSQL.cpp){:target="_blank"}
 
 This project incorporates a working knowledge of SQL databases and the commands to preform CRUD functions
 
