@@ -72,8 +72,9 @@ Several Key elements are incorporated in this project as follows:
 *The program utlizes Hash Table functionality to not only check user creditionals but 
 allow for Adminstrator functionality within the program. 
 
-*The creation of input validations checks for cin inputs by user
+*The creation of input validations checks for cin inputs by user as well as the default cases to protect against incorrect menu selection. 
 
+*The use of nested switch cases utlizing modular resuable functions
 
 ### Project : LoginapplicationWSQL.cpp
 
