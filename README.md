@@ -34,7 +34,7 @@ This ia a code review for the following enhancements implemented below.
 
 This project incorporates my working knowledge of OpenGL.
 
-[Picture of project rendered](https://github.com/migrodri1980/Working-portfolio-/blob/main/Project%20Pictures/ms330%20pic.JPG)
+[Picture of project rendered](https://raw.githubusercontent.com/migrodri1980/Working-portfolio-/main/Project%20Pictures/ms330%20pic.JPG){:target="_blank"}
 
 Several key elements incorporated in this project are as follows:
 
