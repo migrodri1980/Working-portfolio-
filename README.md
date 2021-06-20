@@ -92,9 +92,9 @@ Several Key elements are incorporated in this project as follows:
 
 *The creation of a SQL data base to store information (customer information this application)
 
-*The creation of functions to preform SQL tasks such as create, delete, update and delete information
+*The creation of functions to preform SQL tasks such as create, delete, update, and delete regarding user information
 
-*The principle of least privilege implemented in the insert, and delete functions being only accesible by the adminstrator menu
+*The principle of least privilege implemented in the insert, and delete functions being only accessible by the adminstrator menu
 
 
 
