@@ -92,7 +92,6 @@ Several Key elements are incorporated in this project as follows:
 
 *The creation of functions to preform SQL tasks such as create, delete, update and delete information
 
-<iframe src="https://onedrive.live.com/embed?cid=8C29BE017234E597&resid=8C29BE017234E597%214899&authkey=AE0LgYoTA0kC_RE&em=2" width="476" height="288" frameborder="0" scrolling="no"></iframe>
 
 
 
