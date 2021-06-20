@@ -39,11 +39,11 @@ This project incorporates my working knowledge of OpenGL.
 Several key elements incorporated in this project are as follows:
 
 
-*The creation of an object by creating indivdiual points within xyz axis
+*The creation of an object by creating indivdiual points within the XYZ axis
 
 *The utlization of light and texture to produce scene 
 
-*The a working knowledge of user functionality to navigate a scene
+*The implementation of created functions to allow for user navigation around the rendered scene.
 
 *The utlization of different functions and calls such as (Redisplay/URenderGraphics/etc)
 
