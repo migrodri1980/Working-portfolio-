@@ -98,7 +98,7 @@ Several Key elements are incorporated in this project as follows:
 
 *The principle of least privilege implemented in the insert, and delete functions being only accessible by the adminstrator menu
 
-*The creation of error outputs and catches regarding SQL functions 
+*The creation of error outputs and catches regarding SQL functions
 
 
 
