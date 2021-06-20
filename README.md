@@ -63,16 +63,17 @@ This project incorporates a working knowledge of algorithms, data structures, an
 
 Several Key elements are incorporated in this project as follows:
 
-*The creation the data structure Hash Table to facilitate user information and validation
+*The creation of the data structure Hash Table to facilitate user information and validation
 
-*Within the Hash Table for loops and pointers are utilized to creation HashTable functionality
+*Within the Hash Table "for/if/else" loops and pointers are utilized to creation HashTable functionality
 
 *Hash Table functions created (insert,remove item) and (search,print,check table). 
 
-*The program utlizes Hash Table functionality to not know check user creditionals but 
+*The program utlizes Hash Table functionality to not only check user creditionals but 
 allow for Adminstrator functionality within the program. 
 
 *The creation of input validations checks for cin inputs by user
+
 
 ### Project : LoginapplicationWSQL.cpp
 
@@ -92,6 +93,7 @@ Several Key elements are incorporated in this project as follows:
 
 *The creation of functions to preform SQL tasks such as create, delete, update and delete information
 
+*The principle of least privilege implemented in the insert, and delete functions being only accesible by the adminstrator menu
 
 
 
@@ -112,5 +114,6 @@ Several Key elements are incorporated in this project as follows:
 
 
 
-```
+
+
 
