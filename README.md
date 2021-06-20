@@ -39,13 +39,13 @@ This project incorporates my working knowledge of OpenGL.
 Several key elements incorporated in this project are as follows:
 
 
-*The creation of an object by creating indivdiual points within the XYZ axis
+*The creation of an object by creating individual points within the XYZ axis
 
-*The utlization of light and texture to produce scene 
+*The utilization of light and texture to produce scene 
 
 *The implementation of created functions to allow for user navigation around the rendered scene.
 
-*The utlization of different functions and calls such as (Redisplay/URenderGraphics/etc)
+*The utilization of different functions and calls such as (Redisplay/URenderGraphics/etc)
 
 *The manipulation and binding of VAO,VBO and EBO to produce 3d objects. 
 
@@ -63,18 +63,18 @@ This project incorporates a working knowledge of algorithms, data structures, an
 
 Several Key elements are incorporated in this project as follows:
 
-*The creation of the data structure Hash Table to facilitate user information and validation
+*The creation of the data structure of Hash Table to facilitate user information and validation
 
-*Within the Hash Table "for/if/else" loops and pointers are utilized to creation HashTable functionality
+*Within the Hash Table "for/if/else" loops and pointers are utilized to create HashTable functionality 
 
 *Hash Table functions created (insert,remove item) and (search,print,check table). 
 
 *The program utlizes Hash Table functionality to not only check user creditionals but 
 allow for Adminstrator functionality within the program. 
 
-*The creation of input validations checks for cin inputs by user as well as the default cases to protect against incorrect menu selection. 
+*The creation of input validations checks for cin inputs by user 
 
-*The use of nested switch cases utlizing modular resuable functions
+*The use of nested switch cases utlizing modular resuable functions with default cases to prevent incorrect menu selection
 
 ### Project : LoginapplicationWSQL.cpp
 
@@ -90,11 +90,15 @@ This project incorporates a working knowledge of SQL databases and the commands 
 
 Several Key elements are incorporated in this project as follows:
 
-*The creation of a SQL data base to store information (customer information this application)
+*The creation of a SQL data base to display and store information (customer information)
 
 *The creation of functions to preform SQL tasks such as create, delete, update, and delete regarding user information
 
+*The creation of a callback function to select specific items in a table based on input parameters.
+
 *The principle of least privilege implemented in the insert, and delete functions being only accessible by the adminstrator menu
+
+*The creation of error outputs and catches regarding SQL functions 
 
 
 
