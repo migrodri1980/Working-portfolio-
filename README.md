@@ -101,10 +101,22 @@ Several Key elements are incorporated in this project as follows:
 *The creation of error outputs and catches regarding SQL functions
 
 
-### Project : inv
+### Project : miguelrodriguezinvmanager folder (Currently being developed)
+
+#### [Enhancement for Category Four Link](https://github.com/migrodri1980/Working-portfolio-/tree/main/miguelrodriguezinvmanager){:target="_blank"}
+
+[Inventory application startup page](https://raw.githubusercontent.com/migrodri1980/Working-portfolio-/main/Project%20Pictures/inventory%20tracker%20pic.JPG){:target="_blank"}
 
 
-[Inventory application startup page](https://raw.githubusercontent.com/migrodri1980/Working-portfolio-/main/Project%20Pictures/inventory%20tracker%20pic.JPG)
+This project incorporates a working knowledge of Android Studio with Javascript
+
+Several key elements are incorporated in the project as follows.: 
+
+*The creation of Javascript functions to navigate and create functionality within the application. 
+
+*The use of SQL functions and commands to store item and customer information to facilitate login. (still being worked on)
+
+*The use of themes and colors to create auniformity throughout the application. 
 
 
 
