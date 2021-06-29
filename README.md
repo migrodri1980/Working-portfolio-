@@ -103,9 +103,9 @@ Several Key elements are incorporated in this project as follows:
 
 ### Project : miguelrodriguezinvmanager folder (Currently being developed)
 
-#### [Enhancement for Category Four Link](https://github.com/migrodri1980/Working-portfolio-/tree/main/miguelrodriguezinvmanager){:target="_blank"}
+#### [Link to project file folder](https://github.com/migrodri1980/Working-portfolio-/tree/main/miguelrodriguezinvmanager){:target="_blank"}
 
-[Inventory application startup page](https://raw.githubusercontent.com/migrodri1980/Working-portfolio-/main/Project%20Pictures/inventory%20tracker%20pic.JPG){:target="_blank"}
+[Inventory application startup page pic](https://raw.githubusercontent.com/migrodri1980/Working-portfolio-/main/Project%20Pictures/inventory%20tracker%20pic.JPG){:target="_blank"}
 
 
 This project incorporates a working knowledge of Android Studio with Javascript
