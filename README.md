@@ -101,7 +101,7 @@ Several Key elements are incorporated in this project as follows:
 *The creation of error outputs and catches regarding SQL functions
 
 
-## Additonal Projects below:
+## Additional Projects below:
 
 ### Project : RPI sensor project utilizing Python
 
