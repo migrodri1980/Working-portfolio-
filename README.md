@@ -15,7 +15,7 @@ Course: CS 499- Computer Science Capstone
 
 
 
-### Code Review for the following projects below: 
+### Code Review for the following three projects below: 
 
 [Code Review Link](https://youtu.be/L57Ke2MWIyc){:target="_blank"}
   
@@ -101,7 +101,32 @@ Several Key elements are incorporated in this project as follows:
 *The creation of error outputs and catches regarding SQL functions
 
 
-### Project : miguelrodriguezinvmanager folder (Currently being developed)
+##Additonal Projects below:
+
+### Project : RPI sensor project utilizing Python
+
+#### [Link to project file folder](https://github.com/migrodri1980/Working-portfolio-/tree/main/RPI%20python%20sensor%20project){:target="_blank"}
+
+#### [Link to Python code for RPI](https://github.com/migrodri1980/Working-portfolio-/blob/main/RPI%20python%20sensor%20project/msfinal.py){:target="_blank"}
+
+
+[Picture of dashboard graph displayed with input readings from unit](https://raw.githubusercontent.com/migrodri1980/Working-portfolio-/main/RPI%20python%20sensor%20project/dashboardscreenshot.JPG){:target="_blank"}
+
+
+This project incorporates the use of Python to analyze input sensor readings from a Rasberry Pi 4 unit and outputs to an online dashboard. 
+
+Several key elements are incorporated into this project as follows:
+
+*The creation of Python code to read data from the sensors attached to the RPI unit 
+
+*The creation of functions to write output into a json file path as well as provide keyboard interrupt functionality within the system. 
+
+*The creation of algorithms to interpret input data as well as provide calibrated tolerances allowing for required output readings from the RPI unit. 
+
+
+
+
+### Project : miguelrodriguezinvmanager folder (Currently being developed utlizing Android Studio and Javascript)
 
 #### [Link to project file folder](https://github.com/migrodri1980/Working-portfolio-/tree/main/miguelrodriguezinvmanager){:target="_blank"}
 
