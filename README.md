@@ -113,7 +113,7 @@ Several Key elements are incorporated in this project as follows:
 [Picture of dashboard graph displayed with input readings from unit](https://raw.githubusercontent.com/migrodri1980/Working-portfolio-/main/RPI%20python%20sensor%20project/dashboardscreenshot.JPG){:target="_blank"}
 
 
-This project incorporates the use of Python to analyze input sensor readings from a Rasberry Pi 4 unit and outputs to an online dashboard. 
+This project incorporates the use of Python to analyze input sensor readings from a Raspberry Pi 4 unit and outputs to an online dashboard. 
 
 Several key elements are incorporated into this project as follows:
 
