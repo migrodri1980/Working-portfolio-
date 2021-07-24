@@ -126,7 +126,7 @@ Several key elements are incorporated into this project as follows:
 
 
 
-### Project : Inventory Tracker Mobile App (Currently being developed utlizing Android Studio and Javascript)
+### Project : Inventory Tracker Mobile App (Currently being developed utilizing Android Studio and Javascript)
 
 #### [Link to project file folder](https://github.com/migrodri1980/Working-portfolio-/tree/main/miguelrodriguezinvmanager){:target="_blank"}
 
